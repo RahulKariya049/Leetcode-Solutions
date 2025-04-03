@@ -17,7 +17,7 @@ int main() {
 
         //Checks for the element target - currelement in hash map
         if (map.find(complement) != map.end()) {
-            for (int index : map[complement]) { // ✅ Iterate to print all matching pairs
+            for (int index : map[complement]) { //Iterate to print all matching pairs
                 cout << "[" << index << ", " << i << "]" << endl;
             }
         }
