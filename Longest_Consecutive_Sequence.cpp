@@ -13,7 +13,6 @@ int longestConsecutive(vector<int> &nums)
     }
 
     int longest = 0;
-
     for (int num : nums)
     {
         // Start counting only if it's the start of a sequence
