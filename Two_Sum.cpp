@@ -21,7 +21,6 @@ int main() {
                 cout << "[" << index << ", " << i << "]" << endl;
             }
         }
-
         //Now insert nums[i] in the map
         map[nums[i]].push_back(i);
     }
